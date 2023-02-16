@@ -1,0 +1,3692 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(13, 13, 13);
+}
+
+
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+}
+
+.head-side-1 {
+    /* background-color: orange; */
+    display: flex;
+}
+
+.reorder-four-outline {
+    width: 70px;
+    height: 30px;
+    justify-self: center;
+    justify-content: center;
+    border: none;
+    color: white;
+    background-color: rgb(13, 13, 13);
+}
+
+.button-foure {
+    border: none;
+    background-color: rgb(13, 13, 13);
+}
+
+
+
+.YouTube-head {
+    
+    align-self: center;
+    letter-spacing: -4px;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+.logo-youtube-div {
+    align-self: center;
+    width: 40px;
+    height: 30px;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+
+.logo-youtube {
+    align-self: center;
+    width: 40px;
+    height: 40px;
+    fill: red;
+}
+
+.PK-head {
+    font-size: 12px;
+    font-weight: 50;
+    margin-top: 15px;
+    color: white;
+}
+
+/* ------------------------------------------------------------------------------------- */
+
+.element-side-bar {
+    display: flex;
+}
+
+
+/* ========================================================= */
+.head-side-2 {
+    background-color: rgb(13, 13, 13);
+    display: flex;
+}
+
+.search-barr {
+border: 1px solid rgb(26, 26, 26);
+background-color: rgb(13, 13, 13);
+width: 500px;
+height: 45px;
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+margin-top: 10px;
+padding-left: 15px;
+color: white;
+}
+
+.button-search-push {
+    margin-top: 10px;
+}
+
+.Search {
+height: 20px;
+width: 20px;
+color: white;
+}
+.search-button {
+    width: 70px;
+    height: 46px;
+    margin-left: -1px;
+    background-color: rgb(66, 66, 66);
+    border: 1px solid rgb(119, 119, 119);
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.search-button:hover {
+    background-color: rgb(43, 43, 43);
+}
+
+.mic-outline-head {
+    margin-left: 10px;
+    align-self: center;
+}
+
+.head-mic-button {
+ border-radius: 100%;
+ width: 45px;
+ height: 45px;
+ border: none;
+ background-color: rgb(35, 35, 35);
+ 
+}
+
+.head-mic-button:hover {
+    background-color: rgb(43, 43, 43);
+}
+
+.mic-outline {
+    width: 30px;
+    height: 30px;
+    fill: white;
+    color: white;
+    padding-top: 2px;
+}
+
+/* ------------------------------------------------------------------------- */
+
+.head-side-3 {
+    display: flex;
+}
+
+.Vedio-upload-button {
+    margin-top: 18px;
+}
+
+.add-vedio {
+    position: relative;
+    color: white;
+    top: -7px;
+    left: -37px;
+
+}
+
+.videocam-outline-switch-button {
+border: none;
+
+background-color: rgb(13, 13, 13);
+
+}
+
+.videocam-outline-switch:hover {
+    background-color: rgb(43, 43, 43);
+}
+
+.videocam-outline-switch {
+    width: 40px;
+    height: 30px;
+    color: white;
+    border-radius: 15px;
+}
+
+.notification-div {
+    align-self: center;
+    display: flex;
+
+}
+
+.notification-button {
+background-color: rgb(0, 0, 0);
+border-radius: 15px;
+}
+
+.notification-button:hover {
+    background-color: rgb(43, 43, 43);
+}
+
+.notifications-outline {
+    width: 25px;
+    height: 25px;
+    color: white;
+}
+
+.number-noti {
+background-color: red;
+border-radius: 10px;
+padding-left: 2px;
+width: 25px;
+height: 14px;
+font-size: 12px;
+font-weight: bold;
+color: white;
+position: relative;
+left: -15px;
+}
+
+.logo-apple-div {
+    align-self: center;
+}
+
+.logo-apple-button {
+    border: none;
+    background-color: rgb(13, 13, 13);
+
+}
+
+.logo-apple-appstore {
+    color: rgb(255, 255, 0);
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+}
+
+/* ------------------------------------------------------------ */
+
+.container-side-bar {
+    width: 230px;
+    height: 580px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+.container-side-bar:hover {
+    width: 230px;
+    height: 580px;
+    overflow-y: auto;
+}
+
+.container-side-bar::-webkit-scrollbar {
+    background-color: rgb(13, 13, 13);
+    border-radius: 15px;
+    width: 8px;
+}
+
+.container-side-bar::-webkit-scrollbar-thumb {
+    background-color: rgb(44, 44, 44);
+    border-radius: 15px;
+    width: 8px;
+}
+
+.contant {
+    display: flex;
+    height: 50px;
+}
+
+.contant:hover {
+    background-color: rgb(43, 43, 43);
+    border-radius: 12px;
+}
+.contant-1:hover {
+    background-color: rgb(43, 43, 43);
+    border-radius: 12px;
+}
+.contant-2:hover {
+    background-color: rgb(43, 43, 43);
+    border-radius: 12px;
+}
+
+.contant-1 {
+    display: flex;
+    height: 45px;
+    border-bottom: 1px solid white;
+}
+
+.contant-2 {
+    display: flex;
+    height: 45px;
+    border-bottom: 1px solid white;
+}
+
+.logo-home {
+    width: 22px;
+    height: 22px;
+    align-self: center;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.logo-contant {
+    width: 25px;
+    height: 25px;
+    align-self: center;
+    margin-left: 15px;
+    color: #fff;
+}
+
+.contant-text {
+    font-size: 18px;
+    align-self: center;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.logo-youtube-logo {
+    width: 25px;
+    height: 25px;
+    align-self: center;
+    margin-left: 15px;
+    color: #fff;
+}
+
+.container-side-bar-head-2 {
+    font-size: 18px;
+    margin-left: 10px;
+    color: #fff;
+    margin: 12px;
+}
+
+/* -------------------------------------------------- */
+
+.grid-three {
+    display: grid;
+
+}
+
+/* ============================================= */
+
+.container-elements {
+    display: flex;
+    /* width: 1170px; */
+    height: 38px;
+    overflow-x: auto;
+    
+}
+
+.container-elements::-webkit-scrollbar {
+    background-color: rgb(13, 13, 13);
+    border-radius: 15px;
+    height: 1px;
+}
+
+.container-elements::-webkit-scrollbar-thumb {
+    background-color: rgb(28, 28, 28);
+    border-radius: 15px;
+    height: 1px;
+}
+
+.element-1 {
+    margin: 0;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    border-radius: 10px;
+    align-self: center;
+    padding: 8px;
+}
+
+
+.element {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    border-radius: 10px;
+    align-self: center;
+    padding: 8px;
+    margin-left: 10px;
+    display: inline;
+    flex-shrink: 0;
+
+}
+
+.element-1:hover {
+    background-color: rgb(65, 65, 65);
+    
+}
+.element:hover {
+    background-color: rgb(65, 65, 65);
+}
+/* ---------------------------------------------------------------------- */
+
+.container-sss {
+    display: flex;
+    flex-direction: column;
+    overflow-x: auto
+}
+
+/* =========================================================================================================================================== */
+
+.container-all-contant {
+    display: flex;
+}
+
+.container-all-contant-slide {
+    height: 528px;
+    overflow-y: auto;
+}
+
+.container-all-contant-slide::-webkit-scrollbar {
+    background-color: rgb(13, 13, 13);
+    border-radius: 15px;
+    width: 8px;
+}
+
+.container-all-contant-slide::-webkit-scrollbar-thumb {
+    background-color: rgb(28, 28, 28);
+    border-radius: 15px;
+    width: 8px;
+}
+
+
+.vedios-container {
+    margin-left: 35px;
+    margin-top: 20px;
+    
+}
+
+.logo-channel {
+    display: flex;
+}
+
+.views-months-container {
+    display: flex;
+    margin-left: 50px;
+}
+
+.container-contant {
+    width: 250px;
+    height: 260px;
+}
+
+.red-1 {
+    width: 250px;
+    height: 150px;
+    border-radius: 12px;
+}
+
+.logo-1 {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    margin-top: 5px;
+}
+
+.vedio-title {
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-left: 13px;
+    color: white;
+}
+
+.channel-name {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 50px;
+    color: rgb(60, 60, 60);
+}
+
+.views-months {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(60, 60, 60);
+}
+
+/* ---------------------------------------------------------- */
+
+.blank-block {
+    height: 20px;
+    width: 20px;
+}
+
+/* ========================================================================================================================== */
+
+
+
+
+
+/* Media quaries */
+
+
+
+
+
+/* ==================================================================================================================== */
+
+@media only screen and (max-width:2520px) {
+.header {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+}
+
+.head-side-1 {
+    /* background-color: orange; */
+    display: flex;
+}
+
+.reorder-four-outline {
+    width: 70px;
+    height: 30px;
+    justify-self: center;
+    justify-content: center;
+    border: none;
+    color: white;
+    background-color: rgb(13, 13, 13);
+}
+
+.button-foure {
+    border: none;
+    background-color: rgb(13, 13, 13);
+}
+
+
+
+.YouTube-head {
+    
+    align-self: center;
+    letter-spacing: -4px;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+.logo-youtube-div {
+    align-self: center;
+    width: 40px;
+    height: 30px;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+
+.logo-youtube {
+    align-self: center;
+    width: 40px;
+    height: 40px;
+    fill: red;
+}
+
+.PK-head {
+    font-size: 12px;
+    font-weight: 50;
+    margin-top: 15px;
+    color: white;
+}
+
+/* ------------------------------------------------------------------------------------- */
+
+.element-side-bar {
+    display: flex;
+}
+
+
+/* ========================================================= */
+.head-side-2 {
+    background-color: rgb(13, 13, 13);
+    display: flex;
+}
+
+.search-barr {
+border: 1px solid rgb(26, 26, 26);
+background-color: rgb(13, 13, 13);
+width: 500px;
+height: 45px;
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+margin-top: 10px;
+padding-left: 15px;
+color: white;
+}
+
+.button-search-push {
+    margin-top: 10px;
+}
+
+.Search {
+height: 20px;
+width: 20px;
+color: white;
+}
+.search-button {
+    width: 70px;
+    height: 46px;
+    margin-left: -1px;
+    background-color: rgb(66, 66, 66);
+    border: 1px solid rgb(119, 119, 119);
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.search-button:hover {
+    background-color: rgb(43, 43, 43);
+}
+
+.mic-outline-head {
+    margin-left: 10px;
+    align-self: center;
+}
+
+.head-mic-button {
+ border-radius: 100%;
+ width: 45px;
+ height: 45px;
+ border: none;
+ background-color: rgb(35, 35, 35);
+ 
+}
+
+.head-mic-button:hover {
+    background-color: rgb(43, 43, 43);
+}
+
+.mic-outline {
+    width: 30px;
+    height: 30px;
+    fill: white;
+    color: white;
+    padding-top: 2px;
+}
+
+/* ------------------------------------------------------------------------- */
+
+.head-side-3 {
+    display: flex;
+}
+
+.Vedio-upload-button {
+    margin-top: 18px;
+}
+
+.add-vedio {
+    position: relative;
+    color: white;
+    top: -7px;
+    left: -37px;
+
+}
+
+.videocam-outline-switch-button {
+border: none;
+
+background-color: rgb(13, 13, 13);
+
+}
+
+.videocam-outline-switch:hover {
+    background-color: rgb(43, 43, 43);
+}
+
+.videocam-outline-switch {
+    width: 40px;
+    height: 30px;
+    color: white;
+    border-radius: 15px;
+}
+
+.notification-div {
+    align-self: center;
+    display: flex;
+
+}
+
+.notification-button {
+background-color: rgb(0, 0, 0);
+border-radius: 15px;
+}
+
+.notification-button:hover {
+    background-color: rgb(43, 43, 43);
+}
+
+.notifications-outline {
+    width: 25px;
+    height: 25px;
+    color: white;
+}
+
+.number-noti {
+background-color: red;
+border-radius: 10px;
+padding-left: 2px;
+width: 25px;
+height: 14px;
+font-size: 12px;
+font-weight: bold;
+color: white;
+position: relative;
+left: -15px;
+}
+
+.logo-apple-div {
+    align-self: center;
+}
+
+.logo-apple-button {
+    border: none;
+    background-color: rgb(13, 13, 13);
+
+}
+
+.logo-apple-appstore {
+    color: rgb(255, 255, 0);
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+}
+
+/* ------------------------------------------------------------ */
+
+.container-side-bar {
+    width: 240px;
+    height: 640px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+.container-side-bar:hover {
+    width: 240px;
+    height: 640px;
+    overflow-y: auto;
+}
+
+.container-side-bar::-webkit-scrollbar {
+    background-color: rgb(13, 13, 13);
+    border-radius: 15px;
+    width: 8px;
+}
+
+.container-side-bar::-webkit-scrollbar-thumb {
+    background-color: rgb(44, 44, 44);
+    border-radius: 15px;
+    width: 8px;
+}
+
+.contant {
+    display: flex;
+    height: 60px;
+}
+
+.contant:hover {
+    background-color: rgb(43, 43, 43);
+    border-radius: 12px;
+}
+.contant-1:hover {
+    background-color: rgb(43, 43, 43);
+    border-radius: 12px;
+}
+.contant-2:hover {
+    background-color: rgb(43, 43, 43);
+    border-radius: 12px;
+}
+
+.contant-1 {
+    display: flex;
+    height: 55px;
+    border-bottom: 1px solid white;
+}
+
+.contant-2 {
+    display: flex;
+    height: 55px;
+    border-bottom: 1px solid white;
+}
+
+.logo-home {
+    width: 22px;
+    height: 22px;
+    align-self: center;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.logo-contant {
+    width: 35px;
+    height: 35px;
+    align-self: center;
+    margin-left: 15px;
+    color: #fff;
+}
+
+.contant-text {
+    font-size: 25px;
+    align-self: center;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.logo-youtube-logo {
+    width: 35px;
+    height: 35px;
+    align-self: center;
+    margin-left: 15px;
+    color: #fff;
+}
+
+.container-side-bar-head-2 {
+    font-size: 25px;
+    margin-left: 10px;
+    color: #fff;
+    margin: 12px;
+}
+
+/* -------------------------------------------------- */
+
+.grid-three {
+    display: grid;
+
+}
+
+/* ============================================= */
+
+.container-elements {
+    display: flex;
+    /* width: 1170px; */
+    height: 38px;
+    overflow-x: auto;
+    
+}
+
+.container-elements::-webkit-scrollbar {
+    background-color: rgb(13, 13, 13);
+    border-radius: 15px;
+    height: 1px;
+}
+
+.container-elements::-webkit-scrollbar-thumb {
+    background-color: rgb(28, 28, 28);
+    border-radius: 15px;
+    height: 1px;
+}
+
+.element-1 {
+    margin: 0;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    border-radius: 10px;
+    align-self: center;
+    padding: 8px;
+}
+
+
+.element {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    border-radius: 10px;
+    align-self: center;
+    padding: 8px;
+    margin-left: 10px;
+    display: inline;
+    flex-shrink: 0;
+
+}
+
+.element-1:hover {
+    background-color: rgb(65, 65, 65);
+    
+}
+.element:hover {
+    background-color: rgb(65, 65, 65);
+}
+/* ---------------------------------------------------------------------- */
+
+.container-sss {
+    display: flex;
+    flex-direction: column;
+    overflow-x: auto
+}
+
+/* =========================================================================================================================================== */
+
+.container-all-contant {
+    display: flex;
+}
+
+.container-all-contant-slide {
+    height: 585px;
+    overflow-y: auto;
+}
+
+.container-all-contant-slide::-webkit-scrollbar {
+    background-color: rgb(13, 13, 13);
+    border-radius: 15px;
+    width: 8px;
+}
+
+.container-all-contant-slide::-webkit-scrollbar-thumb {
+    background-color: rgb(28, 28, 28);
+    border-radius: 15px;
+    width: 8px;
+}
+
+
+.vedios-container {
+    margin-left: 35px;
+    margin-top: 20px;
+    
+}
+.vedios-container-1 {
+    margin-left: 45px;
+    margin-top: 20px;
+    
+}
+
+.logo-channel {
+    display: flex;
+}
+
+.views-months-container {
+    display: flex;
+    margin-left: 50px;
+}
+
+.container-contant {
+    width: 270px;
+    height: 300px;
+}
+
+.red-1 {
+    width: 270px;
+    height: 170px;
+    border-radius: 12px;
+}
+
+.logo-1 {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    margin-top: 5px;
+}
+
+.vedio-title {
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-left: 13px;
+    color: white;
+}
+
+.channel-name {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 50px;
+    color: rgb(60, 60, 60);
+}
+
+.views-months {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(60, 60, 60);
+}
+
+/* ---------------------------------------------------------- */
+
+.blank-block {
+    height: 20px;
+    width: 20px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1440px) {
+    .header {
+        display: flex;
+        width: 100%;
+        height: 70px;
+        justify-content: space-between;
+    }
+    
+    .head-side-1 {
+        /* background-color: orange; */
+        display: flex;
+    }
+    
+    .reorder-four-outline {
+        width: 70px;
+        height: 30px;
+        justify-self: center;
+        justify-content: center;
+        border: none;
+        color: white;
+        background-color: rgb(13, 13, 13);
+    }
+    
+    .button-foure {
+        border: none;
+        background-color: rgb(13, 13, 13);
+    }
+    
+    
+    
+    .YouTube-head {
+        
+        align-self: center;
+        letter-spacing: -4px;
+        font-size: 30px;
+        font-weight: 600;
+        color: white;
+    }
+    
+    .logo-youtube-div {
+        align-self: center;
+        width: 40px;
+        height: 30px;
+        border-radius: 100%;
+        margin-top: 10px;
+    }
+    
+    .logo-youtube {
+        align-self: center;
+        width: 40px;
+        height: 40px;
+        fill: red;
+    }
+    
+    .PK-head {
+        font-size: 12px;
+        font-weight: 50;
+        margin-top: 15px;
+        color: white;
+    }
+    
+    /* ------------------------------------------------------------------------------------- */
+    
+    .element-side-bar {
+        display: flex;
+    }
+    
+    
+    /* ========================================================= */
+    .head-side-2 {
+        background-color: rgb(13, 13, 13);
+        display: flex;
+    }
+    
+    .search-barr {
+    border: 1px solid rgb(26, 26, 26);
+    background-color: rgb(13, 13, 13);
+    width: 500px;
+    height: 45px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 10px;
+    padding-left: 15px;
+    color: white;
+    }
+    
+    .button-search-push {
+        margin-top: 10px;
+    }
+    
+    .Search {
+    height: 20px;
+    width: 20px;
+    color: white;
+    }
+    .search-button {
+        width: 70px;
+        height: 46px;
+        margin-left: -1px;
+        background-color: rgb(66, 66, 66);
+        border: 1px solid rgb(119, 119, 119);
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    
+    .search-button:hover {
+        background-color: rgb(43, 43, 43);
+    }
+    
+    .mic-outline-head {
+        margin-left: 10px;
+        align-self: center;
+    }
+    
+    .head-mic-button {
+     border-radius: 100%;
+     width: 45px;
+     height: 45px;
+     border: none;
+     background-color: rgb(35, 35, 35);
+     
+    }
+    
+    .head-mic-button:hover {
+        background-color: rgb(43, 43, 43);
+    }
+    
+    .mic-outline {
+        width: 30px;
+        height: 30px;
+        fill: white;
+        color: white;
+        padding-top: 2px;
+    }
+    
+    /* ------------------------------------------------------------------------- */
+    
+    .head-side-3 {
+        display: flex;
+    }
+    
+    .Vedio-upload-button {
+        margin-top: 18px;
+    }
+    
+    .add-vedio {
+        position: relative;
+        color: white;
+        top: -7px;
+        left: -37px;
+    
+    }
+    
+    .videocam-outline-switch-button {
+    border: none;
+    
+    background-color: rgb(13, 13, 13);
+    
+    }
+    
+    .videocam-outline-switch:hover {
+        background-color: rgb(43, 43, 43);
+    }
+    
+    .videocam-outline-switch {
+        width: 40px;
+        height: 30px;
+        color: white;
+        border-radius: 15px;
+    }
+    
+    .notification-div {
+        align-self: center;
+        display: flex;
+    
+    }
+    
+    .notification-button {
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    }
+    
+    .notification-button:hover {
+        background-color: rgb(43, 43, 43);
+    }
+    
+    .notifications-outline {
+        width: 25px;
+        height: 25px;
+        color: white;
+    }
+    
+    .number-noti {
+    background-color: red;
+    border-radius: 10px;
+    padding-left: 2px;
+    width: 25px;
+    height: 14px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    left: -15px;
+    }
+    
+    .logo-apple-div {
+        align-self: center;
+    }
+    
+    .logo-apple-button {
+        border: none;
+        background-color: rgb(13, 13, 13);
+    
+    }
+    
+    .logo-apple-appstore {
+        color: rgb(255, 255, 0);
+        width: 35px;
+        height: 35px;
+        margin-right: 20px;
+    }
+    
+    /* ------------------------------------------------------------ */
+    
+    .container-side-bar {
+        width: 230px;
+        height: 580px;
+        flex-shrink: 0;
+        overflow: hidden;
+    }
+    .container-side-bar:hover {
+        width: 230px;
+        height: 580px;
+        overflow-y: auto;
+    }
+    
+    .container-side-bar::-webkit-scrollbar {
+        background-color: rgb(13, 13, 13);
+        border-radius: 15px;
+        width: 8px;
+    }
+    
+    .container-side-bar::-webkit-scrollbar-thumb {
+        background-color: rgb(44, 44, 44);
+        border-radius: 15px;
+        width: 8px;
+    }
+    
+    .contant {
+        display: flex;
+        height: 50px;
+    }
+    
+    .contant:hover {
+        background-color: rgb(43, 43, 43);
+        border-radius: 12px;
+    }
+    .contant-1:hover {
+        background-color: rgb(43, 43, 43);
+        border-radius: 12px;
+    }
+    .contant-2:hover {
+        background-color: rgb(43, 43, 43);
+        border-radius: 12px;
+    }
+    
+    .contant-1 {
+        display: flex;
+        height: 45px;
+        border-bottom: 1px solid white;
+    }
+    
+    .contant-2 {
+        display: flex;
+        height: 45px;
+        border-bottom: 1px solid white;
+    }
+    
+    .logo-home {
+        width: 22px;
+        height: 22px;
+        align-self: center;
+        color: #fff;
+        margin-left: 15px;
+    }
+    
+    .logo-contant {
+        width: 25px;
+        height: 25px;
+        align-self: center;
+        margin-left: 15px;
+        color: #fff;
+    }
+    
+    .contant-text {
+        font-size: 18px;
+        align-self: center;
+        margin-left: 10px;
+        color: #fff;
+    }
+    
+    .logo-youtube-logo {
+        width: 25px;
+        height: 25px;
+        align-self: center;
+        margin-left: 15px;
+        color: #fff;
+    }
+    
+    .container-side-bar-head-2 {
+        font-size: 18px;
+        margin-left: 10px;
+        color: #fff;
+        margin: 12px;
+    }
+    
+    /* -------------------------------------------------- */
+    
+    .grid-three {
+        display: grid;
+    
+    }
+    
+    /* ============================================= */
+    
+    .container-elements {
+        display: flex;
+        /* width: 1170px; */
+        height: 38px;
+        overflow-x: auto;
+        
+    }
+    
+    .container-elements::-webkit-scrollbar {
+        background-color: rgb(13, 13, 13);
+        border-radius: 15px;
+        height: 1px;
+    }
+    
+    .container-elements::-webkit-scrollbar-thumb {
+        background-color: rgb(28, 28, 28);
+        border-radius: 15px;
+        height: 1px;
+    }
+    
+    .element-1 {
+        margin: 0;
+        background-color: rgb(51, 51, 51);
+        color: white;
+        border-radius: 10px;
+        align-self: center;
+        padding: 8px;
+    }
+    
+    
+    .element {
+        background-color: rgb(51, 51, 51);
+        color: white;
+        border-radius: 10px;
+        align-self: center;
+        padding: 8px;
+        margin-left: 10px;
+        display: inline;
+        flex-shrink: 0;
+    
+    }
+    
+    .element-1:hover {
+        background-color: rgb(65, 65, 65);
+        
+    }
+    .element:hover {
+        background-color: rgb(65, 65, 65);
+    }
+    /* ---------------------------------------------------------------------- */
+    
+    .container-sss {
+        display: flex;
+        flex-direction: column;
+        overflow-x: auto
+    }
+    
+    /* =========================================================================================================================================== */
+    
+    .container-all-contant {
+        display: flex;
+    }
+    
+    .container-all-contant-slide {
+        height: 528px;
+        overflow-y: auto;
+    }
+    
+    .container-all-contant-slide::-webkit-scrollbar {
+        background-color: rgb(13, 13, 13);
+        border-radius: 15px;
+        width: 8px;
+    }
+    
+    .container-all-contant-slide::-webkit-scrollbar-thumb {
+        background-color: rgb(28, 28, 28);
+        border-radius: 15px;
+        width: 8px;
+    }
+    
+    
+    .vedios-container {
+        margin-left: 35px;
+        margin-top: 20px;
+    }
+    .vedios-container-1 {
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    
+    .logo-channel {
+        display: flex;
+    }
+    
+    .views-months-container {
+        display: flex;
+        margin-left: 50px;
+    }
+    
+    .container-contant {
+        width: 250px;
+        height: 260px;
+    }
+    
+    .red-1 {
+        width: 250px;
+        height: 150px;
+        border-radius: 12px;
+    }
+    
+    .logo-1 {
+        width: 35px;
+        height: 35px;
+        border-radius: 100%;
+        margin-top: 5px;
+    }
+    
+    .vedio-title {
+        margin-top: 5px;
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 20px;
+        margin-left: 13px;
+        color: white;
+    }
+    
+    .channel-name {
+        margin-top: 5px;
+        font-size: 16px;
+        font-weight: 600;
+        margin-left: 50px;
+        color: rgb(60, 60, 60);
+    }
+    
+    .views-months {
+        margin-top: 5px;
+        font-size: 14px;
+        font-weight: 600;
+        color: rgb(60, 60, 60);
+    }
+    
+    /* ---------------------------------------------------------- */
+    
+    .blank-block {
+        height: 20px;
+        width: 20px;
+    }    
+}
+
+
+
+
+
+
+ 
+
+
+
+@media only screen and (max-width: 1280px) {
+
+.container-side-bar {
+    width: 260px;
+    height: 725px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+.container-side-bar:hover {
+    width: 260px;
+    height: 725px;
+    overflow-y: auto;
+}
+
+.container-side-bar::-webkit-scrollbar {
+    background-color: rgb(13, 13, 13);
+    border-radius: 15px;
+    width: 8px;
+}
+
+.container-side-bar::-webkit-scrollbar-thumb {
+    background-color: rgb(44, 44, 44);
+    border-radius: 15px;
+    width: 8px;
+}
+
+.contant {
+    display: flex;
+    height: 60px;
+}
+
+.contant:hover {
+    background-color: rgb(43, 43, 43);
+    border-radius: 12px;
+}
+.contant-1:hover {
+    background-color: rgb(43, 43, 43);
+    border-radius: 12px;
+}
+.contant-2:hover {
+    background-color: rgb(43, 43, 43);
+    border-radius: 12px;
+}
+
+.contant-1 {
+    display: flex;
+    height: 45px;
+    border-bottom: 1px solid white;
+}
+
+.contant-2 {
+    display: flex;
+    height: 45px;
+    border-bottom: 1px solid white;
+}
+
+.logo-home {
+    width: 30px;
+    height: 30px;
+    align-self: center;
+    color: #fff;
+    margin-left: 25px;
+}
+
+.logo-contant {
+    width: 30px;
+    height: 30px;
+    align-self: center;
+    margin-left: 25px;
+    color: #fff;
+}
+
+.contant-text {
+    font-size: 25px;
+    align-self: center;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.logo-youtube-logo {
+    width: 30px;
+    height: 30px;
+    align-self: center;
+    margin-left: 25px;
+    color: #fff;
+}
+
+.container-side-bar-head-2 {
+    font-size: 25px;
+    margin-left: 10px;
+    color: #fff;
+    margin-left: 12px;
+    align-self: center;
+}
+
+/* -------------------------------------------------- */
+
+.grid-three {
+    display: grid;
+
+}
+
+/* ============================================= */
+
+.container-elements {
+    display: flex;
+    /* width: 1170px; */
+    height: 38px;
+    overflow-x: auto;
+    
+}
+
+.container-elements::-webkit-scrollbar {
+    background-color: rgb(13, 13, 13);
+    border-radius: 15px;
+    height: 1px;
+}
+
+.container-elements::-webkit-scrollbar-thumb {
+    background-color: rgb(28, 28, 28);
+    border-radius: 15px;
+    height: 1px;
+}
+
+.element-1 {
+    margin: 0;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    border-radius: 10px;
+    align-self: center;
+    padding: 8px;
+}
+
+
+.element {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    border-radius: 10px;
+    align-self: center;
+    padding: 8px;
+    margin-left: 10px;
+    display: inline;
+    flex-shrink: 0;
+
+}
+
+.element-1:hover {
+    background-color: rgb(65, 65, 65);
+    
+}
+.element:hover {
+    background-color: rgb(65, 65, 65);
+}
+
+/* ------------------------ */
+
+
+
+.container-all-contant {
+    display: flex;
+}
+
+.container-all-contant-slide {
+    height: 668px;
+    overflow-y: auto;
+}
+
+.container-all-contant-slide::-webkit-scrollbar {
+    background-color: rgb(13, 13, 13);
+    border-radius: 15px;
+    width: 8px;
+}
+
+.container-all-contant-slide::-webkit-scrollbar-thumb {
+    background-color: rgb(28, 28, 28);
+    border-radius: 15px;
+    width: 8px;
+}
+
+
+.vedios-container {
+    margin-left: 28px;
+    margin-top: 20px;
+    
+}
+.vedios-container-1 {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.logo-channel {
+    display: flex;
+}
+
+.views-months-container {
+    display: flex;
+    margin-left: 50px;
+}
+
+.container-contant {
+    width: 220px;
+    height: 260px;
+}
+
+.red-1 {
+    width: 230px;
+    height: 150px;
+    border-radius: 12px;
+}
+
+.logo-1 {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    margin-top: 5px;
+}
+
+.vedio-title {
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-left: 13px;
+    color: white;
+}
+
+.channel-name {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 50px;
+    color: rgb(60, 60, 60);
+}
+
+.views-months {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(60, 60, 60);
+}
+
+/* ---------------------------------------------------------- */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    .header {
+        display: flex;
+        width: 100%;
+        height: 50px;
+        justify-content: space-between;
+    }
+    
+    .head-side-1 {
+        /* background-color: orange; */
+        display: flex;
+    }
+    
+    .reorder-four-outline {
+        width: 70px;
+        height: 25px;
+        justify-self: center;
+        justify-content: center;
+        border: none;
+        color: white;
+        background-color: rgb(13, 13, 13);
+    }
+    
+    .button-foure {
+        border: none;
+        background-color: rgb(13, 13, 13);
+    }
+    
+    
+    
+    .YouTube-head {
+        
+        align-self: center;
+        letter-spacing: -4px;
+        font-size: 22px;
+        font-weight: 600;
+        color: white;
+    }
+    
+    .logo-youtube-div {
+        align-self: center;
+        width: 40px;
+        height: 30px;
+        border-radius: 100%;
+        margin-top: 10px;
+    }
+    
+    .logo-youtube {
+        align-self: center;
+        width: 40px;
+        height: 40px;
+        fill: red;
+    }
+    
+    .PK-head {
+        font-size: 10px;
+        font-weight: 50;
+        margin-top: 10px;
+        color: white;
+    }
+    
+    /* ------------------------------------------------------------------------------------- */
+    
+    .element-side-bar {
+        display: flex;
+    }
+    
+    
+    /* ========================================================= */
+    .head-side-2 {
+        background-color: rgb(13, 13, 13);
+        display: flex;
+    }
+    
+    .search-barr {
+    border: 1px solid rgb(26, 26, 26);
+    background-color: rgb(13, 13, 13);
+    width: 300px;
+    height: 35px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 10px;
+    padding-left: 15px;
+    color: white;
+    }
+    
+    .button-search-push {
+        margin-top: 10px;
+    }
+    
+    .Search {
+    height: 15px;
+    width: 15px;
+    color: white;
+    }
+    .search-button {
+        width: 50px;
+        height: 36px;
+        margin-left: -1px;
+        background-color: rgb(66, 66, 66);
+        border: 1px solid rgb(119, 119, 119);
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    
+    .search-button:hover {
+        background-color: rgb(76, 76, 76);
+    }
+    
+    .mic-outline-head {
+        margin-left: 10px;
+        align-self: center;
+        margin-top: 8px;
+    }
+    
+    .head-mic-button {
+     border-radius: 100%;
+     width: 35px;
+     height: 35px;
+     border: none;
+     background-color: rgb(35, 35, 35);
+     
+    }
+    
+    .head-mic-button:hover {
+        background-color: rgb(43, 43, 43);
+    }
+    
+    .mic-outline {
+        width: 23px;
+        height: 23px;
+        fill: white;
+        color: white;
+        padding-top: 2px;
+    }
+    
+    /* ------------------------------------------------------------------------- */
+    
+    .head-side-3 {
+        display: flex;
+    }
+    
+    .Vedio-upload-button {
+        margin-top: 13px;
+    }
+    
+    .add-vedio {
+        position: relative;
+        color: white;
+        top: -7px;
+        left: -37px;
+    
+    }
+    
+    .videocam-outline-switch-button {
+    border: none;
+    
+    background-color: rgb(13, 13, 13);
+    
+    }
+    
+    .videocam-outline-switch:hover {
+        background-color: rgb(43, 43, 43);
+    }
+    
+    .videocam-outline-switch {
+        width: 40px;
+        height: 30px;
+        color: white;
+        border-radius: 15px;
+    }
+    
+    .notification-div {
+        align-self: center;
+        display: flex;
+        margin-top: 8px;
+    
+    }
+    
+    .notification-button {
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    }
+    
+    .notification-button:hover {
+        background-color: rgb(43, 43, 43);
+    }
+    
+    .notifications-outline {
+        width: 23px;
+        height: 23px;
+        color: white;
+    }
+    
+    .number-noti {
+    background-color: red;
+    border-radius: 10px;
+    padding-left: 2px;
+    width: 22px;
+    height: 14px;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    left: -15px;
+    }
+    
+    .logo-apple-div {
+        align-self: center;
+    }
+    
+    .logo-apple-button {
+        border: none;
+        background-color: rgb(13, 13, 13);
+    
+    }
+    
+    .logo-apple-appstore {
+        color: rgb(255, 255, 0);
+        width: 33px;
+        height: 33px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+    
+    /* ------------------------------------------------------------ */
+    
+    .container-side-bar {
+        width: 180px;
+        height: 435px;
+        flex-shrink: 0;
+        overflow: hidden;
+    }
+    .container-side-bar:hover {
+        width: 200px;
+        height: 435px;
+        overflow-y: auto;
+    }
+    
+    .container-side-bar::-webkit-scrollbar {
+        background-color: rgb(13, 13, 13);
+        border-radius: 15px;
+        width: 8px;
+    }
+    
+    .container-side-bar::-webkit-scrollbar-thumb {
+        background-color: rgb(44, 44, 44);
+        border-radius: 15px;
+        width: 8px;
+    }
+    
+    .contant {
+        display: flex;
+        height: 50px;
+    }
+    
+    .contant:hover {
+        background-color: rgb(43, 43, 43);
+        border-radius: 12px;
+    }
+    .contant-1:hover {
+        background-color: rgb(43, 43, 43);
+        border-radius: 12px;
+    }
+    .contant-2:hover {
+        background-color: rgb(43, 43, 43);
+        border-radius: 12px;
+    }
+    
+    .contant-1 {
+        display: flex;
+        height: 45px;
+        border-bottom: 1px solid white;
+    }
+    
+    .contant-2 {
+        display: flex;
+        height: 45px;
+        border-bottom: 1px solid white;
+    }
+    
+    .logo-home {
+        width: 22px;
+        height: 22px;
+        align-self: center;
+        color: #fff;
+        margin-left: 15px;
+    }
+    
+    .logo-contant {
+        width: 25px;
+        height: 25px;
+        align-self: center;
+        margin-left: 15px;
+        color: #fff;
+    }
+    
+    .contant-text {
+        font-size: 18px;
+        align-self: center;
+        margin-left: 10px;
+        color: #fff;
+    }
+    
+    .logo-youtube-logo {
+        width: 25px;
+        height: 25px;
+        align-self: center;
+        margin-left: 15px;
+        color: #fff;
+    }
+    
+    .container-side-bar-head-2 {
+        font-size: 18px;
+        margin-left: 10px;
+        color: #fff;
+        margin: 12px;
+    }
+    
+    /* -------------------------------------------------- */
+    
+    .grid-three {
+        display: grid;
+    
+    }
+    
+    /* ============================================= */
+    
+    .container-elements {
+        display: flex;
+        /* width: 1170px; */
+        height: 33px;
+        overflow-x: auto;
+        margin-top: 15px;
+    }
+    
+    .container-elements::-webkit-scrollbar {
+        background-color: rgb(13, 13, 13);
+        border-radius: 15px;
+        height: 1px;
+    }
+    
+    .container-elements::-webkit-scrollbar-thumb {
+        background-color: rgb(28, 28, 28);
+        border-radius: 15px;
+        height: 1px;
+    }
+    
+    .element-1 {
+        margin: 0;
+        background-color: rgb(51, 51, 51);
+        color: white;
+        border-radius: 10px;
+        align-self: center;
+        padding: 6px;
+        font-size: 16px;
+    }
+    
+    
+    .element {
+        background-color: rgb(51, 51, 51);
+        color: white;
+        border-radius: 10px;
+        align-self: center;
+        padding: 6px;
+        margin-left: 10px;
+        display: inline;
+        flex-shrink: 0;
+        font-size: 16px;
+    
+    }
+    
+    .element-1:hover {
+        background-color: rgb(65, 65, 65);
+        
+    }
+    .element:hover {
+        background-color: rgb(65, 65, 65);
+    }
+    /* ---------------------------------------------------------------------- */
+    
+    .container-sss {
+        display: flex;
+        flex-direction: column;
+        overflow-x: auto
+    }
+    
+    /* =========================================================================================================================================== */
+    
+    .container-all-contant {
+        display: flex;
+
+    }
+    
+    .container-all-contant-slide {
+        height: 388px;
+        overflow-y: auto;
+    }
+    
+    .container-all-contant-slide::-webkit-scrollbar {
+        background-color: rgb(13, 13, 13);
+        border-radius: 15px;
+        width: 8px;
+    }
+    
+    .container-all-contant-slide::-webkit-scrollbar-thumb {
+        background-color: rgb(28, 28, 28);
+        border-radius: 15px;
+        width: 8px;
+    }
+    
+    
+    .vedios-container {
+        margin-left: 30px;
+        margin-top: 5px;
+        
+    }
+    .vedios-container-1 {
+        margin-left: 30px;
+        margin-top: 5px;
+        
+    }
+
+    
+    
+    .logo-channel {
+        display: flex;
+    }
+    
+    .views-months-container {
+        display: flex;
+        margin-left: 50px;
+    }
+    
+    .container-contant {
+        width: 170px;
+        height: 200px;
+    }
+     
+    
+    .red-1 {
+        width: 180px;
+        height: 100px;
+        border-radius: 12px;
+    }
+    
+    .logo-1 {
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        margin-top: 5px;
+    }
+    
+    .vedio-title {
+        margin-top: 5px;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 20px;
+        margin-left: 13px;
+        color: white;
+    }
+    
+    .channel-name {
+        margin-top: 5px;
+        font-size: 12px;
+        font-weight: 600;
+        margin-left: 40px;
+        color: rgb(60, 60, 60);
+    }
+    
+    .views-months {
+        margin-top: 5px;
+        font-size: 10px;
+        font-weight: 600;
+        color: rgb(60, 60, 60);
+    }
+
+    .views-months-container {
+        margin-left: 40px;
+    }
+
+    /* ---------------------------------------------------------- */
+
+    .blank-block {
+        width: 5;
+        height: 5;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1024px),
+screen and (max-height: 600px) {
+    .header {
+        display: flex;
+        width: 100%;
+        height: 50px;
+        justify-content: space-between;
+    }
+    
+    .head-side-1 {
+        /* background-color: orange; */
+        display: flex;
+    }
+    
+    .reorder-four-outline {
+        width: 70px;
+        height: 25px;
+        justify-self: center;
+        justify-content: center;
+        border: none;
+        color: white;
+        background-color: rgb(13, 13, 13);
+    }
+    
+    .button-foure {
+        border: none;
+        background-color: rgb(13, 13, 13);
+    }
+    
+    
+    
+    .YouTube-head {
+        
+        align-self: center;
+        letter-spacing: -4px;
+        font-size: 22px;
+        font-weight: 600;
+        color: white;
+    }
+    
+    .logo-youtube-div {
+        align-self: center;
+        width: 40px;
+        height: 30px;
+        border-radius: 100%;
+        margin-top: 10px;
+    }
+    
+    .logo-youtube {
+        align-self: center;
+        width: 40px;
+        height: 40px;
+        fill: red;
+    }
+    
+    .PK-head {
+        font-size: 10px;
+        font-weight: 50;
+        margin-top: 10px;
+        color: white;
+    }
+    
+    /* ------------------------------------------------------------------------------------- */
+    
+    .element-side-bar {
+        display: flex;
+    }
+    
+    
+    /* ========================================================= */
+    .head-side-2 {
+        background-color: rgb(13, 13, 13);
+        display: flex;
+    }
+    
+    .search-barr {
+    border: 1px solid rgb(26, 26, 26);
+    background-color: rgb(13, 13, 13);
+    width: 300px;
+    height: 35px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 10px;
+    padding-left: 15px;
+    color: white;
+    }
+    
+    .button-search-push {
+        margin-top: 10px;
+    }
+    
+    .Search {
+    height: 15px;
+    width: 15px;
+    color: white;
+    }
+    .search-button {
+        width: 50px;
+        height: 36px;
+        margin-left: -1px;
+        background-color: rgb(66, 66, 66);
+        border: 1px solid rgb(119, 119, 119);
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    
+    .search-button:hover {
+        background-color: rgb(76, 76, 76);
+    }
+    
+    .mic-outline-head {
+        margin-left: 10px;
+        align-self: center;
+        margin-top: 8px;
+    }
+    
+    .head-mic-button {
+     border-radius: 100%;
+     width: 35px;
+     height: 35px;
+     border: none;
+     background-color: rgb(35, 35, 35);
+     
+    }
+    
+    .head-mic-button:hover {
+        background-color: rgb(43, 43, 43);
+    }
+    
+    .mic-outline {
+        width: 23px;
+        height: 23px;
+        fill: white;
+        color: white;
+        padding-top: 2px;
+    }
+    
+    /* ------------------------------------------------------------------------- */
+    
+    .head-side-3 {
+        display: flex;
+    }
+    
+    .Vedio-upload-button {
+        margin-top: 13px;
+    }
+    
+    .add-vedio {
+        position: relative;
+        color: white;
+        top: -7px;
+        left: -37px;
+    
+    }
+    
+    .videocam-outline-switch-button {
+    border: none;
+    
+    background-color: rgb(13, 13, 13);
+    
+    }
+    
+    .videocam-outline-switch:hover {
+        background-color: rgb(43, 43, 43);
+    }
+    
+    .videocam-outline-switch {
+        width: 40px;
+        height: 30px;
+        color: white;
+        border-radius: 15px;
+    }
+    
+    .notification-div {
+        align-self: center;
+        display: flex;
+        margin-top: 8px;
+    
+    }
+    
+    .notification-button {
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    }
+    
+    .notification-button:hover {
+        background-color: rgb(43, 43, 43);
+    }
+    
+    .notifications-outline {
+        width: 23px;
+        height: 23px;
+        color: white;
+    }
+    
+    .number-noti {
+    background-color: red;
+    border-radius: 10px;
+    padding-left: 2px;
+    width: 22px;
+    height: 14px;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    left: -15px;
+    }
+    
+    .logo-apple-div {
+        align-self: center;
+    }
+    
+    .logo-apple-button {
+        border: none;
+        background-color: rgb(13, 13, 13);
+    
+    }
+    
+    .logo-apple-appstore {
+        color: rgb(255, 255, 0);
+        width: 33px;
+        height: 33px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+    
+    /* ------------------------------------------------------------ */
+    
+    .container-side-bar {
+        width: 180px;
+        height: 545px;
+        flex-shrink: 0;
+        overflow: hidden;
+    }
+    .container-side-bar:hover {
+        width: 200px;
+        height: 545px;
+        overflow-y: auto;
+    }
+    
+    .container-side-bar::-webkit-scrollbar {
+        background-color: rgb(13, 13, 13);
+        border-radius: 15px;
+        width: 8px;
+    }
+    
+    .container-side-bar::-webkit-scrollbar-thumb {
+        background-color: rgb(44, 44, 44);
+        border-radius: 15px;
+        width: 8px;
+    }
+    
+    .contant {
+        display: flex;
+        height: 50px;
+    }
+    
+    .contant:hover {
+        background-color: rgb(43, 43, 43);
+        border-radius: 12px;
+    }
+    .contant-1:hover {
+        background-color: rgb(43, 43, 43);
+        border-radius: 12px;
+    }
+    .contant-2:hover {
+        background-color: rgb(43, 43, 43);
+        border-radius: 12px;
+    }
+    
+    .contant-1 {
+        display: flex;
+        height: 45px;
+        border-bottom: 1px solid white;
+    }
+    
+    .contant-2 {
+        display: flex;
+        height: 45px;
+        border-bottom: 1px solid white;
+    }
+    
+    .logo-home {
+        width: 22px;
+        height: 22px;
+        align-self: center;
+        color: #fff;
+        margin-left: 15px;
+    }
+    
+    .logo-contant {
+        width: 25px;
+        height: 25px;
+        align-self: center;
+        margin-left: 15px;
+        color: #fff;
+    }
+    
+    .contant-text {
+        font-size: 18px;
+        align-self: center;
+        margin-left: 10px;
+        color: #fff;
+    }
+    
+    .logo-youtube-logo {
+        width: 25px;
+        height: 25px;
+        align-self: center;
+        margin-left: 15px;
+        color: #fff;
+    }
+    
+    .container-side-bar-head-2 {
+        font-size: 18px;
+        margin-left: 10px;
+        color: #fff;
+        margin: 12px;
+    }
+    
+    /* -------------------------------------------------- */
+    
+    .grid-three {
+        display: grid;
+    
+    }
+    
+    /* ============================================= */
+    
+    .container-elements {
+        display: flex;
+        /* width: 1170px; */
+        height: 33px;
+        overflow-x: auto;
+        margin-top: 15px;
+    }
+    
+    .container-elements::-webkit-scrollbar {
+        background-color: rgb(13, 13, 13);
+        border-radius: 15px;
+        height: 1px;
+    }
+    
+    .container-elements::-webkit-scrollbar-thumb {
+        background-color: rgb(28, 28, 28);
+        border-radius: 15px;
+        height: 1px;
+    }
+    
+    .element-1 {
+        margin: 0;
+        background-color: rgb(51, 51, 51);
+        color: white;
+        border-radius: 10px;
+        align-self: center;
+        padding: 6px;
+        font-size: 16px;
+    }
+    
+    
+    .element {
+        background-color: rgb(51, 51, 51);
+        color: white;
+        border-radius: 10px;
+        align-self: center;
+        padding: 6px;
+        margin-left: 10px;
+        display: inline;
+        flex-shrink: 0;
+        font-size: 16px;
+    
+    }
+    
+    .element-1:hover {
+        background-color: rgb(65, 65, 65);
+        
+    }
+    .element:hover {
+        background-color: rgb(65, 65, 65);
+    }
+    /* ---------------------------------------------------------------------- */
+    
+    .container-sss {
+        display: flex;
+        flex-direction: column;
+        overflow-x: auto
+    }
+    
+    /* =========================================================================================================================================== */
+    
+    .container-all-contant {
+        display: flex;
+
+    }
+    
+    .container-all-contant-slide {
+        height: 480px;
+        overflow-y: auto;
+    }
+    
+    .container-all-contant-slide::-webkit-scrollbar {
+        background-color: rgb(13, 13, 13);
+        border-radius: 15px;
+        width: 8px;
+    }
+    
+    .container-all-contant-slide::-webkit-scrollbar-thumb {
+        background-color: rgb(28, 28, 28);
+        border-radius: 15px;
+        width: 8px;
+    }
+    
+    
+    .vedios-container {
+        margin-left: 30px;
+        margin-top: 5px;
+        
+    }
+    .vedios-container-1 {
+        margin-left: 30px;
+        margin-top: 5px;
+        
+    }
+    
+    .logo-channel {
+        display: flex;
+    }
+    
+    .views-months-container {
+        display: flex;
+        margin-left: 50px;
+    }
+    
+    .container-contant {
+        width: 170px;
+        height: 200px;
+    }
+     
+    
+    .red-1 {
+        width: 180px;
+        height: 100px;
+        border-radius: 12px;
+    }
+    
+    .logo-1 {
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        margin-top: 5px;
+    }
+    
+    .vedio-title {
+        margin-top: 5px;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 20px;
+        margin-left: 13px;
+        color: white;
+    }
+    
+    .channel-name {
+        margin-top: 5px;
+        font-size: 12px;
+        font-weight: 600;
+        margin-left: 40px;
+        color: rgb(60, 60, 60);
+    }
+    
+    .views-months {
+        margin-top: 5px;
+        font-size: 10px;
+        font-weight: 600;
+        color: rgb(60, 60, 60);
+    }
+
+    .views-months-container {
+        margin-left: 40px;
+    }
+
+    /* ---------------------------------------------------------- */
+
+    .blank-block {
+        width: 5;
+        height: 5;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 760px ) {
+    .header {
+        display: flex;
+        width: 100%;
+        height: 100px;
+        justify-content: space-between;
+    }
+    
+    .head-side-1 {
+        /* background-color: orange; */
+        display: flex;
+    }
+    
+    .reorder-four-outline {
+        width: 40px;
+        height: 25px;
+        justify-self: center;
+        justify-content: center;
+        border: none;
+        color: white;
+        background-color: rgb(13, 13, 13);
+    }
+    
+    .button-foure {
+        border: none;
+        background-color: rgb(13, 13, 13);
+    }
+    
+    
+    
+    .YouTube-head {
+        
+        align-self: center;
+        letter-spacing: -4px;
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+    }
+    
+    .logo-youtube-div {
+        align-self: center;
+        width: 30px;
+        height: 20px;
+        border-radius: 100%;
+        margin-top: 10px;
+    }
+    
+    .logo-youtube {
+        align-self: center;
+        width: 40px;
+        height: 40px;
+        fill: red;
+    }
+    
+    .PK-head {
+        font-size: 8px;
+        font-weight: 50;
+        margin-top: 8px;
+        color: white;
+    }
+    
+    /* ------------------------------------------------------------------------------------- */
+    
+    .element-side-bar {
+        display: flex;
+    }
+    
+    /* ========================================================= */
+    .head-side-2 {
+        background-color: rgb(13, 13, 13);
+        display: flex;
+    }
+    
+    .search-barr {
+    border: 1px solid rgb(26, 26, 26);
+    background-color: rgb(13, 13, 13);
+    width: 10px;
+    height: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 10px;
+    padding-left: 15px;
+    color: white;
+    }
+    
+    .button-search-push {
+        margin-top: 10px;
+    }
+    
+    .Search {
+    height: 15px;
+    width: 15px;
+    color: white;
+    }
+    .search-button {
+        width: 50px;
+        height: 36px;
+        margin-left: -1px;
+        background-color: rgb(66, 66, 66);
+        border: 1px solid rgb(119, 119, 119);
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    
+    .search-button:hover {
+        background-color: rgb(76, 76, 76);
+    }
+    
+    .mic-outline-head {
+        margin-left: 10px;
+        align-self: center;
+        margin-top: 8px;
+    }
+    
+    .head-mic-button {
+     border-radius: 100%;
+     width: 35px;
+     height: 35px;
+     border: none;
+     background-color: rgb(35, 35, 35);
+     
+    }
+    
+    .head-mic-button:hover {
+        background-color: rgb(43, 43, 43);
+    }
+    
+    .mic-outline {
+        width: 23px;
+        height: 23px;
+        fill: white;
+        color: white;
+        padding-top: 2px;
+    }
+    
+    /* ------------------------------------------------------------------------- */
+    
+    .head-side-3 {
+        display: flex;
+    }
+    
+    .Vedio-upload-button {
+        margin-top: 13px;
+    }
+    
+    .add-vedio {
+       display: none;
+    
+    }
+    
+    .videocam-outline-switch-button {
+    border: none;
+    
+    background-color: rgb(13, 13, 13);
+    
+    }
+    
+    .videocam-outline-switch:hover {
+        background-color: rgb(43, 43, 43);
+    }
+    
+    .videocam-outline-switch {
+        width: 40px;
+        height: 30px;
+        color: white;
+        border-radius: 15px;
+    }
+    
+    .notification-div {
+        align-self: center;
+        display: flex;
+        margin-top: 8px;
+    
+    }
+    
+    .notification-button {
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    }
+    
+    .notification-button:hover {
+        background-color: rgb(43, 43, 43);
+    }
+    
+    .notifications-outline {
+        width: 23px;
+        height: 23px;
+        color: white;
+    }
+    
+    .number-noti {
+    background-color: red;
+    border-radius: 10px;
+    padding-left: 2px;
+    width: 22px;
+    height: 14px;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    left: -15px;
+    }
+    
+    .logo-apple-div {
+        align-self: center;
+    }
+    
+    .logo-apple-button {
+        border: none;
+        background-color: rgb(13, 13, 13);
+    
+    }
+    
+    .logo-apple-appstore {
+        color: rgb(255, 255, 0);
+        width: 33px;
+        height: 33px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+    
+    /* ------------------------------------------------------------ */
+    
+    .container-side-bar {
+       display: none;
+    }
+    .container-side-bar:hover {
+        width: 200px;
+        height: 550px;
+        overflow-y: auto;
+    }
+    
+    .container-side-bar::-webkit-scrollbar {
+        background-color: rgb(13, 13, 13);
+        border-radius: 15px;
+        width: 8px;
+    }
+    
+    .container-side-bar::-webkit-scrollbar-thumb {
+        background-color: rgb(44, 44, 44);
+        border-radius: 15px;
+        width: 8px;
+    }
+    
+    .contant {
+        display: flex;
+        height: 50px;
+    }
+    
+    .contant:hover {
+        background-color: rgb(43, 43, 43);
+        border-radius: 12px;
+    }
+    .contant-1:hover {
+        background-color: rgb(43, 43, 43);
+        border-radius: 12px;
+    }
+    .contant-2:hover {
+        background-color: rgb(43, 43, 43);
+        border-radius: 12px;
+    }
+    
+    .contant-1 {
+        display: flex;
+        height: 45px;
+        border-bottom: 1px solid white;
+    }
+    
+    .contant-2 {
+        display: flex;
+        height: 45px;
+        border-bottom: 1px solid white;
+    }
+    
+    .logo-home {
+        width: 22px;
+        height: 22px;
+        align-self: center;
+        color: #fff;
+        margin-left: 15px;
+    }
+    
+    .logo-contant {
+        width: 25px;
+        height: 25px;
+        align-self: center;
+        margin-left: 15px;
+        color: #fff;
+    }
+    
+    .contant-text {
+        font-size: 18px;
+        align-self: center;
+        margin-left: 10px;
+        color: #fff;
+    }
+    
+    .logo-youtube-logo {
+        width: 25px;
+        height: 25px;
+        align-self: center;
+        margin-left: 15px;
+        color: #fff;
+    }
+    
+    .container-side-bar-head-2 {
+        font-size: 18px;
+        margin-left: 10px;
+        color: #fff;
+        margin: 12px;
+    }
+    
+    /* -------------------------------------------------- */
+    
+    .grid-three {
+        display: grid;
+    
+    }
+    
+    /* ============================================= */
+    
+    .container-elements {
+        display: flex;
+        /* width: 1170px; */
+        height: 33px;
+        overflow-x: auto;
+        margin-top: 15px;
+    }
+    
+    .container-elements::-webkit-scrollbar {
+        background-color: rgb(13, 13, 13);
+        border-radius: 15px;
+        height: 1px;
+    }
+    
+    .container-elements::-webkit-scrollbar-thumb {
+        background-color: rgb(28, 28, 28);
+        border-radius: 15px;
+        height: 1px;
+    }
+    
+    .element-1 {
+        margin: 0;
+        background-color: rgb(51, 51, 51);
+        color: white;
+        border-radius: 10px;
+        align-self: center;
+        padding: 6px;
+        font-size: 16px;
+    }
+    
+    
+    .element {
+        background-color: rgb(51, 51, 51);
+        color: white;
+        border-radius: 10px;
+        align-self: center;
+        padding: 6px;
+        margin-left: 10px;
+        display: inline;
+        flex-shrink: 0;
+        font-size: 16px;
+    
+    }
+    
+    .element-1:hover {
+        background-color: rgb(65, 65, 65);
+        
+    }
+    .element:hover {
+        background-color: rgb(65, 65, 65);
+    }
+    /* ---------------------------------------------------------------------- */
+    
+    .container-sss {
+        display: flex;
+        flex-direction: column;
+        overflow-x: auto
+    }
+    
+    /* =========================================================================================================================================== */
+    
+    .container-all-contant {
+        display: flex;
+    }
+    
+    .container-all-contant-slide {
+        height: 500px;
+        overflow-y: auto;
+
+    }
+    
+    .container-all-contant-slide::-webkit-scrollbar {
+        background-color: rgb(13, 13, 13);
+        border-radius: 15px;
+        width: 8px;
+    }
+    
+    .container-all-contant-slide::-webkit-scrollbar-thumb {
+        background-color: rgb(28, 28, 28);
+        border-radius: 15px;
+        width: 8px;
+    }
+    
+    
+    .vedios-container {
+        margin-left: 30px;
+        margin-top: 10px;
+        width: 155px;
+        height: 180px;
+    }
+    .vedios-container-1 {
+        margin-top: 5px;
+        margin-left: 10px;
+        width: 155px;
+        height: 180px;
+    }
+    
+
+    
+    .logo-channel {
+        display: flex;
+    }
+    
+    .views-months-container {
+        display: flex;
+        margin-left: 50px;
+    }
+    
+    .container-contant {
+        width: 140px;
+        height: 190px;
+    }
+     
+    
+    .red-1 {
+        width: 120px;
+        height: 100px;
+        border-radius: 12px;
+    }
+    
+    .logo-1 {
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        margin-top: 5px;
+    }
+    
+    .vedio-title {
+        margin-top: 5px;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 20px;
+        margin-left: 13px;
+        color: white;
+    }
+    
+    .channel-name {
+        margin-top: 5px;
+        font-size: 12px;
+        font-weight: 600;
+        margin-left: 40px;
+        color: rgb(60, 60, 60);
+    }
+    
+    .views-months {
+        margin-top: 5px;
+        font-size: 10px;
+        font-weight: 600;
+        color: rgb(60, 60, 60);
+    }
+
+    .views-months-container {
+        margin-left: 40px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (width: 412px ) {
+    .header {
+        display: flex;
+        width: 100%;
+        height: 30px;
+    }
+    
+    .head-side-1 {
+        display: flex;
+    }
+    
+    .reorder-four-outline {
+        display: none;
+    }
+    .button-foure {
+        display: none;
+    }
+    
+    
+    .YouTube-head {
+        align-self: center;
+        letter-spacing: -4px;
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        margin-top: 5px;
+    }
+    
+    .logo-youtube-div {
+        align-self: center;
+        width: 30px;
+        height: 20px;
+        border-radius: 100%;
+        margin-top: 10px;
+    }
+    
+    .logo-youtube {
+        align-self: center;
+        width: 40px;
+        height: 40px;
+        fill: red;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    
+    .PK-head {
+        font-size: 8px;
+        font-weight: 50;
+        margin-top: 8px;
+        color: white;
+    }
+    
+    /* ------------------------------------------------------------------------------------- */
+    
+    .element-side-bar {
+        display: flex;
+    }
+    
+    /* ========================================================= */
+    .head-side-2 {
+        background-color: rgb(13, 13, 13);
+        display: flex;
+    }
+    
+    .search-barr {
+    display: none;
+    }
+    
+    .button-search-push {
+        margin-top: 6px;
+    }
+    
+    .Search {
+    height: 15px;
+    width: 15px;
+    color: white;
+    background-color: rgb(13, 13, 13);
+    }
+    .search-button {
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        padding-top: 2px;
+        background-color: rgb(13, 13, 13);
+        border: none;
+        justify-content: end;
+        margin-left: 150px;
+    }
+    
+    .search-button:hover {
+        background-color: rgb(13, 13, 13);
+    }
+    
+    .mic-outline-head {
+        margin-left: 10px;
+        align-self: center;
+        justify-content:end;
+        margin-top: 8px;
+    }
+    
+    .head-mic-button {
+     border-radius: 100%;
+     width: 35px;
+     height: 35px;
+     border: none;
+     background-color: rgb(13, 13, 13);
+     
+    }
+    
+    .head-mic-button:hover {
+        background-color: rgb(43, 43, 43);
+    }
+    
+    .mic-outline {
+        width: 23px;
+        height: 23px;
+        fill: white;
+        color: white;
+        padding-top: 2px;
+    }
+    
+    /* ------------------------------------------------------------------------- */
+    
+    .head-side-3 {
+        display: flex;
+        
+    }
+    
+    .Vedio-upload-button {
+        margin-top: 13px;
+        display: none;
+    }
+    
+    .add-vedio {
+       display: none;
+    
+    }
+    
+    .videocam-outline-switch-button {
+    border: none;
+    
+    background-color: rgb(13, 13, 13);
+    
+    }
+    
+    .videocam-outline-switch:hover {
+        background-color: rgb(43, 43, 43);
+    }
+    
+    .videocam-outline-switch {
+        width: 40px;
+        height: 30px;
+        color: white;
+        border-radius: 15px;
+    }
+    
+    .notification-div {
+        align-self: center;
+        display: flex;
+        margin-top: 8px;
+        display: none;
+    
+    }
+    
+    .notification-button {
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    }
+    
+    .notification-button:hover {
+        background-color: rgb(43, 43, 43);
+    }
+    
+    .notifications-outline {
+        width: 23px;
+        height: 23px;
+        color: white;
+    }
+    
+    .number-noti {
+    background-color: red;
+    border-radius: 10px;
+    padding-left: 2px;
+    width: 22px;
+    height: 14px;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    left: -15px;
+    }
+    
+    .logo-apple-div {
+        align-self: center;
+    }
+    
+    .logo-apple-button {
+        border: none;
+        background-color: rgb(13, 13, 13);
+    
+    }
+    
+    .logo-apple-appstore {
+        color: rgb(255, 255, 0);
+        width: 33px;
+        height: 33px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+    
+    /* ------------------------------------------------------------ */
+    
+    .container-side-bar {
+       display: none;
+    }
+    .container-side-bar:hover {
+        width: 200px;
+        height: 550px;
+        overflow-y: auto;
+    }
+    
+    .container-side-bar::-webkit-scrollbar {
+        background-color: rgb(13, 13, 13);
+        border-radius: 15px;
+        width: 8px;
+    }
+    
+    .container-side-bar::-webkit-scrollbar-thumb {
+        background-color: rgb(44, 44, 44);
+        border-radius: 15px;
+        width: 8px;
+    }
+    
+    .contant {
+        display: flex;
+        height: 50px;
+    }
+    
+    .contant:hover {
+        background-color: rgb(43, 43, 43);
+        border-radius: 12px;
+    }
+    .contant-1:hover {
+        background-color: rgb(43, 43, 43);
+        border-radius: 12px;
+    }
+    .contant-2:hover {
+        background-color: rgb(43, 43, 43);
+        border-radius: 12px;
+    }
+    
+    .contant-1 {
+        display: flex;
+        height: 45px;
+        border-bottom: 1px solid white;
+    }
+    
+    .contant-2 {
+        display: flex;
+        height: 45px;
+        border-bottom: 1px solid white;
+    }
+    
+    .logo-home {
+        width: 22px;
+        height: 22px;
+        align-self: center;
+        color: #fff;
+        margin-left: 15px;
+    }
+    
+    .logo-contant {
+        width: 25px;
+        height: 25px;
+        align-self: center;
+        margin-left: 15px;
+        color: #fff;
+    }
+    
+    .contant-text {
+        font-size: 18px;
+        align-self: center;
+        margin-left: 10px;
+        color: #fff;
+    }
+    
+    .logo-youtube-logo {
+        width: 25px;
+        height: 25px;
+        align-self: center;
+        margin-left: 15px;
+        color: #fff;
+    }
+    
+    .container-side-bar-head-2 {
+        font-size: 18px;
+        margin-left: 10px;
+        color: #fff;
+        margin: 12px;
+    }
+    
+    /* -------------------------------------------------- */
+    
+    .grid-three {
+        display: grid;
+    
+    }
+    
+    /* ============================================= */
+    
+    .container-elements {
+        display: flex;
+        /* width: 1170px; */
+        height: 33px;
+        overflow-x: auto;
+        margin-top: 15px;
+    }
+    
+    .container-elements::-webkit-scrollbar {
+        background-color: rgb(13, 13, 13);
+        border-radius: 15px;
+        height: 1px;
+    }
+    
+    .container-elements::-webkit-scrollbar-thumb {
+        background-color: rgb(28, 28, 28);
+        border-radius: 15px;
+        height: 1px;
+    }
+    
+    .element-1 {
+        margin: 0;
+        background-color: rgb(51, 51, 51);
+        color: white;
+        border-radius: 10px;
+        align-self: center;
+        padding: 6px;
+        font-size: 16px;
+    }
+    
+    
+    .element {
+        background-color: rgb(51, 51, 51);
+        color: white;
+        border-radius: 10px;
+        align-self: center;
+        padding: 6px;
+        margin-left: 10px;
+        display: inline;
+        flex-shrink: 0;
+        font-size: 16px;
+    
+    }
+    
+    .element-1:hover {
+        background-color: rgb(65, 65, 65);
+        
+    }
+    .element:hover {
+        background-color: rgb(65, 65, 65);
+    }
+    /* ---------------------------------------------------------------------- */
+    
+    .container-sss {
+        display: flex;
+        flex-direction: column;
+        overflow-x: auto
+    }
+    
+    /* =========================================================================================================================================== */
+    
+    .container-all-contant {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container-all-contant-slide {
+        height: 800px;
+        width: 416px;
+        overflow-y: auto;
+
+    }
+    
+    .container-all-contant-slide::-webkit-scrollbar {
+        background-color: rgb(13, 13, 13);
+        border-radius: 15px;
+        width: 8px;
+    }
+    
+    .container-all-contant-slide::-webkit-scrollbar-thumb {
+        background-color: rgb(28, 28, 28);
+        border-radius: 15px;
+        width: 8px;
+    }
+    
+    
+    .vedios-container {
+        margin-left: 40px;
+        margin-top: 20px;
+        width: 255px;
+        height: 280px;
+    }
+    .vedios-container-1 {
+        margin-top: 20px;
+        margin-left: 40px;
+        width: 255px;
+        height: 280px;
+    }
+    
+
+    
+    .logo-channel {
+        display: flex;
+    }
+    
+    .views-months-container {
+        display: flex;
+        margin-left: 10px;
+    }
+    
+    .container-contant {
+        width: 280px;
+        height: 980px;
+    }
+     
+    
+    .red-1 {
+        width: 330px;
+        height: 170px;
+        border-radius: 12px;
+    }
+    
+    .logo-1 {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        margin-top: 5px;
+    }
+    
+    .vedio-title {
+        margin-top: 5px;
+        font-size: 22px;
+        font-weight: bold;
+        line-height: 30px;
+        margin-left: 13px;
+        color: white;
+    }
+    
+    .channel-name {
+        margin-top: 5px;
+        font-size: 18px;
+        font-weight: 600;
+        margin-left: 60px;
+        color: rgb(60, 60, 60);
+    }
+    
+    .views-months {
+        margin-top: 5px;
+        font-size: 16px;
+        font-weight: 600;
+        color: rgb(60, 60, 60);
+    }
+
+    .views-months-container {
+        margin-left: 60px;
+    }
+
+}
